@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< eu.phamhoanglam:baocaokiemthu >--------------------
+[INFO] Building baocaokiemthu 1.0-SNAPSHOT
+[INFO]   from pom.xmlI_INT2208_10>cd ..
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Doc\Code>cd BaoCaoKiemThu
+[INFO] --- resources:3.4.0:resources (default-resources) @ baocaokiemthu ---
+[INFO] skip non existing resourceDirectory E:\Doc\Doc\Code\BaoCaoKiemThu\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ baocaokiemthu ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 17] to target\classes
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ baocaokiemthu ---
+[INFO] skip non existing resourceDirectory E:\Doc\Doc\Code\BaoCaoKiemThu\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ baocaokiemthu ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug target 17] to target\test-classes
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ baocaokiemthu ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running BaoCaoKiemThuTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s -- in BaoCaoKiemThuTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.797 s
+[INFO] Finished at: 2026-05-27T22:31:36+07:00
+[INFO] ------------------------------------------------------------------------
